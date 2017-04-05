@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ParkingSolution</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+
+
+</resources>

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="bottom"
+    android:background="@drawable/header_background"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+<!--
+    <ImageView
+        android:id="@+id/drawer_profile_image"
+        android:layout_width="50"
+        android:layout_height="50"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:scaleType="centerCrop"
+        android:src="@drawable/common_google_signin_btn_icon_light_pressed"
+        />
+-->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alexandru Simonescu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hi@alexsimo.com"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        style="@style/Widget.AppCompat.Spinner"
+        />
+
+</LinearLayout>
